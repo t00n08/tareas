@@ -10,10 +10,10 @@ main{
 }
 .content{
     height: 378px;
-    width: 390px;
+    width: 400px;
     background-color: #ff0000;
     position: absolute;
-    top: 0px; left: 209px;
+    top: 0px; left: 198px;
 
 }
 .pading{
