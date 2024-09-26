@@ -8,6 +8,8 @@
     height: 200px;
     background-color: #b22222;
     margin: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 #blue{
@@ -18,3 +20,8 @@
     background-color: gold;
 }
 
+.img{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
