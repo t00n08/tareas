@@ -118,7 +118,7 @@
                #j{
                 display: flex;
                 width: 30px;
-                
+                justify-content: space-between;
                 
 
                }
@@ -140,6 +140,6 @@
               #y{
                 display: flex;
                 width: 55px;
-                
+                justify-content: space-between;
               }
          
