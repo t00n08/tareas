@@ -11,3 +11,63 @@ a{
     color: black;
     
 }
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: white; 
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.nav-bar ul li{
+    list-style-type: none;
+}
+
+.nav-links input{
+    margin-left: 100px;
+    background-color: #f1f1f1;
+    height: 39px;
+    border: 0;
+    border-radius: 30px;
+    padding-left: 37px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 200px;
+}
+
+.input-imagen{
+    background-image: url(img/buscar.PNG);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position: 12px center;
+}
+
+.t{
+    background-color: #262329;
+    height: 8vh;
+    color: #f1f1f1;
+}
