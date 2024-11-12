@@ -1,17 +1,3 @@
-.titulo{
-    height: 9vh;
-}
-.yt{
-    background-color: #262329;
-    height: 8vh;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    
-}
-
 body{
     padding: 0px;
     margin: 0px;
@@ -22,7 +8,6 @@ body{
     display: flex;
     align-items: center;
     background-color: white; 
-    padding: 10px 20px;
     margin-bottom: 30px;
 }
 
@@ -53,21 +38,102 @@ body{
     height: 39px;
     border: 0;
     border-radius: 30px;
-    padding-left: 37px;
+    padding-left: 27px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     width: 200px;
-}
-
-.input-imagen{
     background-image: url(img/buscar.PNG);
     background-repeat: no-repeat;
     background-position: left center;
-    background-position: 12px center;
 }
 
-.t{
-    background-color: #262329;
-    height: 8vh;
+
+.op{
+    background-color:#262329;
+    width: 100%;
+}
+.ubicacion{
     color: #f1f1f1;
 }
+.kfc-logo{
+    height: 8vh;
+}
+.fondo{
+    display: flex;
+    width: 100%;
+}
+.fondo{
+    display: flex;
+    width: 100%;
+}
+.cupones{
+    height: 6vh;
+}
+.perfil{
+    height: 6vh;
+}
+.bolsa{
+    height: 8vh;
+}
+
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+  }
+  
+  
+  
+  .menu-title {
+    text-align:start;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+
+.btnn{
+     background-color:firebrick;
+    display: block;
+    margin: 0 auto;
+    height: 9vh;
+    width: 19vh;
+
+    color:#ffffff;
+    border-radius: 6vh;
+    border-color: firebrick;
+    text-align: center;
+    font-size: 3vh;
+  }
